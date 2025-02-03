@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <engine:VisualElement name="root" style="flex-grow: 0; flex-direction: row;">
+        <engine:Label text="attribute" name="attribute_label" />
+        <engine:VisualElement name="space" style="flex-grow: 1;" />
+        <engine:VisualElement name="values" style="flex-grow: 0; flex-direction: row; width: 100px;">
+            <engine:Label text="0" name="value_label" style="width: auto;" />
+            <engine:VisualElement name="space" style="flex-grow: 0; width: 20px; min-width: auto;" />
+            <engine:Label text="x0" name="modifier_label" />
+            <engine:VisualElement name="space" style="flex-grow: 0; width: 20px; min-width: auto;" />
+            <engine:Label text="= 0" name="total_label" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
